@@ -8,7 +8,7 @@ end
 
 def display_current_time(time_data, area, location)
   current_time = time_data['datetime']
-  puts "The current time in #{area}/#{location} is #{current_time}"
+  puts "Current time in #{area}/#{location}: #{current_time}"
 end
 
 area = ARGV[0]

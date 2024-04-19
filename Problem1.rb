@@ -25,6 +25,9 @@ def display_most_starred_repository(repo)
 end
 
 username = ARGV[0]
+
 repos = fetch_github_repositories(username)
+
 most_starred_repo = analyze_repositories(repos)
+
 display_most_starred_repository(most_starred_repo)
